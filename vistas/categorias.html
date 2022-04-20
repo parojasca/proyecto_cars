@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <script src="../js/bootstrap.js"></script>
+
+
+    <title>Proyecto Cars</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/Cars-Logo.jpg" alt="" srcset="" width="55px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../vistas/categorias.html"><i class="fa-solid fa-car"></i> Carros</a></li>
+                            <li><a class="dropdown-item" href="../vistas/aviones.html"> <i class="fa-brands fa-avianex"></i> Aviones</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Monsters </a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../vistas/estrenos.html">Estrenos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio contenido -->
+    <div class="container">
+
+        <div class="angry-grid">
+            <div id="item-0">
+                <div class="card">
+                    <img src="../img/07_cars.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div id="item-1">
+                <div class="card">
+                    <img src="../img/avion.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div id="item-2">
+                <div class="card">
+                    <img src="../img/monster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Fin de contenido -->
+</body>
+
+</html>

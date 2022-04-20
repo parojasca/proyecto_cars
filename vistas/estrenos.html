@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <script src="../js/bootstrap.js"></script>
+
+
+    <title>Proyecto Cars</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/Cars-Logo.jpg" alt="" srcset="" width="55px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../vistas/categorias.html"><i class="fa-solid fa-car"></i> Carros</a></li>
+                          <li><a class="dropdown-item" href="../vistas/aviones.html"> <i class="fa-brands fa-avianex"></i> Aviones</a></li>
+                          <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Monsters </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../vistas/estrenos.html">Estrenos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Inicio contenido -->
+    <div class="container">
+       
+        <div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true">Doctor Strange</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false">Lightyear</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">Ron Da Error</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/image_451523ce.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctor Strange en el multiverso de la locura</h5>
+                            <p class="card-text">En “Doctor Strange en el multiverso de la locura”, de Marvel Studios, el
+                                UCM abre las puertas del multiverso y expande sus límites más que nunca. Viaja a lo
+                                desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados
+                                místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para
+                                enfrentarse a un nuevo y misterioso adversario. </p>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hb_placeholder_desktop_7575eb06.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lightyear</h5>
+                            <p class="card-text">“Lightyear” es un largometraje original de Disney y Pixar. Esta aventura de
+                                ciencia ficción da a conocer la historia definitiva sobre los orígenes de Buzz Lightyear—el
+                                héroe que inspiró el juguete— y presenta al legendario guardián espacial que se ganó a
+                                varias generaciones de fans.</p>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/image_d47d3d91.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ron Da Error</h5>
+                            <p class="card-text">"Ron da error", de 20th Century Studios y Locksmith Animation cuenta la
+                                historia de Barney, un estudiante de secundaria poco popular y de Ron, su nuevo dispositivo
+                                andante y parlante, conectado de forma digital, que se supone que debe ser su “Mejor amigo
+                                listo para funcionar".</p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <!-- Fin de contenido -->
+</body>
+
+</html>
